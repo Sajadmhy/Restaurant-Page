@@ -13,14 +13,20 @@ function pageLoad() {
 
     var btn1 = document.createElement("button");
     btn1.innerHTML = "Home Page";
+    btn1.setAttribute("id" , "home");
+    btn1.setAttribute("type" , "button");
     content.appendChild(btn1);
 
     var btn2 = document.createElement("button");
     btn2.innerHTML = "Menu";
+    btn2.setAttribute("id" , "menu");
+    btn2.setAttribute("type" , "button");
     content.appendChild(btn2);
 
     var btn3 = document.createElement("button");
     btn3.innerHTML = "Contact Us";
+    btn3.setAttribute("id" , "contact");
+    btn3.setAttribute("type" , "button");
     content.appendChild(btn3);
 
     var p = document.createElement("p");
