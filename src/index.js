@@ -1,1 +1,3 @@
-console.log('Hello again Sajad');
+import { pageLoad } from "../modules/homepage";
+
+pageLoad();
